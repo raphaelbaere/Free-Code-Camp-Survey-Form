@@ -1,0 +1,71 @@
+<!DOCTYPE: html>
+<html>
+    <head>
+    <title>Self-Taught Websites Survey Form</title>
+    </head>
+    <main>
+    <body>
+    <h1 id="title">Self-Taught Websites Survey Form</h1>
+      <p id="description">A survey form to gather information about websites that teach how to code.</p>
+      <form id="survey-form">
+                <div>
+        <label for="name" id="name-label">Name</label>
+        </div>
+        <div>
+        <input id="name" type="text" name="name" placeholder="Enter Your Name" required>
+        </div>
+        <div>
+        <label for="email" id="email-label">Email</label>
+        </div>
+        <div>
+        <input id="email" type="email" placeholder="Enter Your Email" required>
+        </div>
+        <div>
+          <label for="number" id="number-label">Age</label>
+        </div>
+        <div>
+        <input id="number" type="number" name="number" min="16" max="100" placeholder="Enter Your Age">
+        </div>
+        <div>
+               <label for="website-name" id="website-label">Website Name</label>
+        </div>
+        <div>
+      <input id="website-name" type="text" name="website-name" placeholder="Enter The Website">
+        </div>
+        <div>
+          <p>Which of these options fits better your actual role</p>
+        <select name="websites" id="dropdown">
+         <option value="student">Student</option>
+          <option value="fulltimejob">Full Time Job</option>
+          <option value="fulltimelearner">Full Time Learner</option>
+          <option value="pfrnottosay">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+        <p>Would you recommend this website to a friend?</p>
+        <input type="radio" value="dfntly" name="radiotype" id="dfntly">
+                <label for="dfntly" id="dfntlylabel">Definitely</label>
+                <input type="radio" value="maybe" name="radiotype" id="maybe">
+                <label for="maybe" id="maybelabel">Maybe</label>
+                <input type="radio" value="notsure" name="radiotype" id="notsure">
+                <label for="notsure" id="notsurelabel">Not sure</label>
+
+        <p>Check the website qualitys</p>
+          <input type="checkbox" value="didactic" name="dfntcheck" id="didacticlabel">
+          <label for="didacticlabel" id="didacticlabel2">Didactic</label>
+           <input type="checkbox" value="updated" name="dfntcheck"id="updatedlabel">
+                    <label for="updatedlabel" id="updatedlabel2">Updated</label>
+          <input type="checkbox" value="free" name="dfntcheck" id="freelabel">
+                    <label for="freelabel" id="freelabel2">Free</label>
+          <input type="checkbox" value="practical" name="dfntcheck" id="practicallabel">
+                    <label for="practicallabel" id="practicallabel2">Practical</label>
+        <p>Any comments or suggestions?</p>
+<textarea id="comment" name="comment" value="comment" rows="5" cols="72">Enter your comment here..
+          </textarea>
+        <div>
+          <button type="submit" id="submit">Submit</button>
+          </div>
+          </form>
+
+          
+               </body>
+        </main>
